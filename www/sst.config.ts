@@ -169,7 +169,7 @@ export default $config({
             },
           ]);
           args.orderedCacheBehaviors = $output(
-            args.orderedCacheBehaviors
+            args.orderedCacheBehaviors,
           ).apply((cacheBehaviors) => [
             ...(cacheBehaviors || []),
             { pathPattern: "/blog/*.html", ...stripHtmlBehavior },
