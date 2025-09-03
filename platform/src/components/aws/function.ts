@@ -700,7 +700,7 @@ export interface FunctionArgs {
        */
       logGroup?: Input<string>;
       /**
-       * The [log format](https://docs.aws.amazon.com/lambda/latest/dg/monitoring-cloudwatchlogs-advanced.html)
+       * The [log format](https://docs.aws.amazon.com/lambda/latest/dg/monitoring-logs.html#monitoring-cloudwatchlogs-advanced)
        * of the Lambda function.
        * @default `"text"`
        * @example
